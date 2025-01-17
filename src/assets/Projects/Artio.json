@@ -1,0 +1,15 @@
+{
+    
+    "title": "Artio",
+    "overview": "I designed and developed Hay Barro, a project created for my final bootcamp project. I utilized JavaScript, Tailwind, and React for the frontend, and MongoDB for the backend.",
+    "image_1": "https://github.com/IvanZaja/Portfolio2/blob/5f86a969d01eac6cdb273b523d5e94f112852a72/public/ProjectImages/HB1.jpg?raw=true",
+    "image_2": "HayBarro.png",
+    "image_3": "HayBarro.png",
+    "image_banner": "https://www.github.com/IvanZaja/Portfolio2/blob/5f86a969d01eac6cdb273b523d5e94f112852a72/public/ProjectImages/HBBanner.jpg?raw=true",
+    "role": "Full Stack Developer",
+    "year": "2024",
+    "github": "https://github.com/IvanZaja/Artio",
+    "status": "Live Project",
+    "link": "https://artio.fly.dev/"
+    
+}
