@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom"
 import HayBarroData from '../../assets/Projects/HayBarro.json'
 import ArtioData from '../../assets/Projects/Artio.json'
+import GamerHubData from '../../assets/Projects/GamerHub.json'
+
 
 
 function Works({ selectedOption }) {
@@ -26,6 +28,13 @@ function Works({ selectedOption }) {
           {selectedOption === 'option2' && <Link to={'/work/artio'}>VIEW PROJECT</Link>}
         </div>  
         {selectedOption === 'option2' && <div className="my-8 h-[370px]"><img src={ArtioData.image_banner} alt="hay-barro" className='w-full h-full object-cover'/></div>}
+
+        {/* GAMERHUB */}
+        <div className="flex justify-between">  
+          {selectedOption === 'option3' && <h1 className="uppercase">{GamerHubData.title}</h1>}
+          {selectedOption === 'option3' && <Link to={'/work/gamerhub'}>VIEW PROJECT</Link>}
+        </div>  
+        {selectedOption === 'option3' && <div className="my-8 h-[370px]"><img src={GamerHubData.image_banner} alt="hay-barro" className='w-full h-full object-cover'/></div>}
     </div>
   )
 }

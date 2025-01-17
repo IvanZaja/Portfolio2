@@ -1,0 +1,14 @@
+{
+    
+    "title": "GamerHub",
+    "overview": "I designed and developed GamerHub, a project created for my second bootcamp project. I utilized JavaScript and Bootstrap, and MongoDB for the backend.",
+    "image_1": "https://github.com/IvanZaja/Portfolio2/blob/c9be586085e77fc56dd32b83ad9703ee5ea1919c/public/ProjectImages/GH1.jpg?raw=true",
+    "image_2": "HayBarro.png",
+    "image_3": "HayBarro.png",
+    "image_banner": "https://github.com/IvanZaja/Portfolio2/blob/ef5483caf2b148247d2aa561940e3060f2b39503/public/ProjectImages/GHBanner.jpg?raw=true",
+    "role": "Full Stack Developer",
+    "year": "2024",
+    "github": "https://github.com/Lluis-e-Ivan/gamming-social-media",
+    "status": "Live Project",
+    "link": "https://gamerhub-ironhack.fly.dev/games"
+}
