@@ -10,9 +10,9 @@ function LeftBar({ onSelectOption }) {
         <h1>[ FEATURED PROJECTS ]</h1>
         <div className="flex flex-col my-8 gap-1">
             <h1 onClick={() => handleOptionClick('option1')} >HAY BARRO</h1>
-            <Link to='/work/hay-barro'>ARTIO</Link>
-            <Link to='/work/hay-barro'>GAMERHUB</Link>
-            <Link to='/work/hay-barro'>POKESHOOTER</Link>
+            <h1 onClick={() => handleOptionClick('option2')} >ARTIO</h1>
+            <h1 onClick={() => handleOptionClick('option3')} >GAMERHUB</h1>
+            <h1 onClick={() => handleOptionClick('option4')} >POKESHOOTER</h1>
         </div>
     </div>
   )
