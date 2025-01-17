@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 import HayBarroData from '../../assets/Projects/HayBarro.json'
 import ArtioData from '../../assets/Projects/Artio.json'
 import GamerHubData from '../../assets/Projects/GamerHub.json'
+import PokeshooterData from '../../assets/Projects/Pokeshooter.json'
+
 
 
 
@@ -35,6 +37,13 @@ function Works({ selectedOption }) {
           {selectedOption === 'option3' && <Link to={'/work/gamerhub'}>VIEW PROJECT</Link>}
         </div>  
         {selectedOption === 'option3' && <div className="my-8 h-[370px]"><img src={GamerHubData.image_banner} alt="hay-barro" className='w-full h-full object-cover'/></div>}
+
+        {/* POKESHOOTER */}
+        <div className="flex justify-between">  
+          {selectedOption === 'option4' && <h1 className="uppercase">{PokeshooterData.title}</h1>}
+          {selectedOption === 'option4' && <Link to={'/work/pokeshooter'}>VIEW PROJECT</Link>}
+        </div>  
+        {selectedOption === 'option4' && <div className="my-8 h-[370px]"><img src={PokeshooterData.image_banner} alt="hay-barro" className='w-full h-full object-cover'/></div>}
     </div>
   )
 }

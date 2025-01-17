@@ -1,13 +1,13 @@
 {
     
     "title": "Pokeshooter",
-    "overview": "I designed and developed Pokeshooter, a project created for my final bootcamp project. I utilized JavaScript, Tailwind, and React for the frontend, and MongoDB for the backend.",
-    "image_1": "https://github.com/IvanZaja/Portfolio2/blob/c9be586085e77fc56dd32b83ad9703ee5ea1919c/public/ProjectImages/Artio1.jpg?raw=true",
+    "overview": "I designed and developed Pokeshooter, a project created for my first bootcamp project. I utilized JavaScript.",
+    "image_1": "https://github.com/IvanZaja/Portfolio2/blob/4e165ffb7d53fae23a8f0fff3ca60ded68127fba/public/ProjectImages/PS1.png?raw=true",
     "image_2": "HayBarro.png",
     "image_3": "HayBarro.png",
-    "image_banner": "https://github.com/IvanZaja/Portfolio2/blob/c9be586085e77fc56dd32b83ad9703ee5ea1919c/public/ProjectImages/ArtioBanner.jpg?raw=true",
+    "image_banner": "https://github.com/IvanZaja/Portfolio2/blob/4e165ffb7d53fae23a8f0fff3ca60ded68127fba/public/ProjectImages/PSBanner.jpg?raw=true",
     "role": "Full Stack Developer",
-    "year": "2024",
+    "year": "2023",
     "github": "https://github.com/IvanZaja/PokeShutter",
     "status": "Local Project",
     "link": ""

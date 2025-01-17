@@ -7,6 +7,7 @@ import BotBar from './components/BotBar/BotBar'
 import About from './pages/About'
 import Artio from './pages/Artio'
 import GamerHub from './pages/GamerHub'
+import Pokeshooter from './pages/Pokeshooter'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/work/hay-barro' element={<HayBarro />} />
         <Route path='/work/artio' element={<Artio />} />
         <Route path='/work/gamerhub' element={<GamerHub />} />
+        <Route path='/work/pokeshooter' element={<Pokeshooter />} />
       </Routes>
       <BotBar />
     </>
