@@ -1,0 +1,14 @@
+{
+    
+    "title": "Hay Barro",
+    "overview": "I designed and developed Hay Barro, a project created for a local pottery school. I utilized JavaScript, Tailwind, and React for the frontend, and MongoDB for the backend. The project was supervised and approved by the client.",
+    "image_1": "HayBarro.png",
+    "image_2": "HayBarro.png",
+    "image_3": "HayBarro.png",
+    "image_banner": "HayBarro.png",
+    "role": "Full Stack Developer",
+    "year": "2025",
+    "github": "https://github.com/IvanZaja/HayBarro",
+    "status": "Live Project",
+    "link": "https://www.haybarro.com"
+}
