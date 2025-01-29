@@ -7,3 +7,18 @@
   background-color: #242424;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+.hoverActive,.hoverLink:hover .flashAnimation {
+  animation: flash .7s infinite
+}
+
+.leading-\[23px\] {
+  line-height: 23px
+}
+
+.leading-none {
+  line-height: 1;
+}

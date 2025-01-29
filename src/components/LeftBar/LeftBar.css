@@ -1,0 +1,45 @@
+.indicator {
+    background-color: #ffffff;
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    margin-bottom: 1px;
+    animation: slide-in 0.5s forwards;
+  }
+  
+  .text {
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide-in {
+    transform: translateX(18px);
+  }
+
+  
+  
+  @keyframes slide-in {
+    from {
+        transform: translateX(0) ;
+      opacity: 0;
+    }
+    to {
+        transform:  translateX(80%) ;
+      opacity: 1;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .indicator {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .indicator {
+      width: 12px;
+      height: 12px;
+      margin-bottom: 0;
+    }
+  }

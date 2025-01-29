@@ -22,7 +22,6 @@ function App() {
         <Route path='/work/gamerhub' element={<GamerHub />} />
         <Route path='/work/pokeshooter' element={<Pokeshooter />} />
       </Routes>
-      <BotBar />
     </>
   )
 }
