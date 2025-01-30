@@ -1,15 +1,16 @@
 .indicator {
     background-color: #ffffff;
-    width: 8px;
-    height: 8px;
+    width: 6px;
+    height: 10px;
     display: inline-block;
     margin-bottom: 1px;
-    animation: slide-in 0.5s forwards;
+    animation: slide-in 0.7s forwards ease-in-out, blink 1.5s infinite ease-in-out;
+
   }
   
   .text {
     display: inline-block;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
   }
   
   .slide-in {
@@ -17,6 +18,14 @@
   }
 
   
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
   
   @keyframes slide-in {
     from {
@@ -31,14 +40,14 @@
   
   @media (min-width: 768px) {
     .indicator {
-      width: 10px;
+      width: 6px;
       height: 10px;
     }
   }
   
   @media (min-width: 1024px) {
     .indicator {
-      width: 12px;
+      width: 8px;
       height: 12px;
       margin-bottom: 0;
     }
