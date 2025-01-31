@@ -6,8 +6,8 @@ function About() {
         <div className="flex flex-col gap-y-[8px] col-span-2 md:grid md:grid-cols-6 gap-x-columnGap md:col-span-4 md:mt-[32px] lg:col-span-8 lg:grid-cols-8">
           <h6 className="text-grey1 blockH2 md:col-span-2 lg:col-span-4">[ Services ]</h6>
           <ul className="flex flex-col gap-[4px]">
-            <li className="leading-none whitespace-nowrap bodyCopy">Full Stack Development</li>
-            <li className="leading-none whitespace-nowrap bodyCopy">Front End Developpment</li>
+            <li className="leading-none whitespace-nowrap bodyCopy">Full Stack Dev</li>
+            <li className="leading-none whitespace-nowrap bodyCopy">Front End Dev</li>
           </ul>
         </div>
         <div className="flex flex-col gap-y-[8px] col-span-2 md:grid md:grid-cols-6 gap-x-columnGap md:col-span-4 md:mt-[32px] lg:col-span-8 lg:grid-cols-8">
@@ -35,9 +35,10 @@ function About() {
             </li>
           </ul>
         </div>
-        <img alt="Ivan Sanza Portrait" loading="lazy" width="1920" height="1920" decoding="async" data-nimg="1" className="col-span-4 justify-self-end hidden mt-[64px] mb-[32px] transition-opacity duration-700 md:block md:w-[309px] md:h-[392px] object-cover lg:w-[unset] lg:hidden lg:h-[unset]" src="/_next/image?url=%2Fimages%2FerinDesktop.jpg&amp;w=3840&amp;q=75" style={{color: "transparent"}}></img>
+        <img alt="Erin Fleming Portrait" loading="lazy" width="764" height="764" decoding="async" data-nimg="1" className="col-span-4 my-[32px] md:hidden transition-opacity duration-700" src="https://github.com/IvanZaja/Portfolio2/blob/1c0612b39a7a67a3b7a3c5d46919b9cf51e589e2/public/ProjectImages/profilepic.jpg?raw=true" style={{color: "transparent"}}></img>
+        <img alt="Ivan Sanza Portrait" loading="lazy" width="1920" height="1920" decoding="async" data-nimg="1" className="col-span-4 justify-self-end hidden mt-[64px] mb-[32px] transition-opacity duration-700 md:block md:w-[309px] md:h-[392px] object-cover lg:w-[unset] lg:hidden lg:h-[unset]" src="https://github.com/IvanZaja/Portfolio2/blob/1c0612b39a7a67a3b7a3c5d46919b9cf51e589e2/public/ProjectImages/profilepic.jpg?raw=true" style={{color: "transparent"}}></img>
       </div>
-      <img alt="Ivan Sanza Portrait" loading="lazy" width="1920" height="1920" decoding="async" data-nimg="1" className="col-span-4 justify-self-end hidden transition-opacity duration-700 md:w-[309px] md:h-[392px] object-cover lg:w-[unset] lg:mb-[32px] lg:h-[calc(100vh-311px)] lg:block" src="/_next/image?url=%2Fimages%2FerinDesktop.jpg&amp;w=3840&amp;q=75" style={{color: "transparent"}}></img>
+      <img alt="Ivan Sanza Portrait" loading="lazy" width="1920" height="1920" decoding="async" data-nimg="1" className="col-span-4 justify-self-end hidden transition-opacity duration-700 md:w-[309px] md:h-[392px] object-cover lg:w-[unset] lg:mb-[32px] lg:h-[calc(100vh-311px)] lg:block" src="https://github.com/IvanZaja/Portfolio2/blob/1c0612b39a7a67a3b7a3c5d46919b9cf51e589e2/public/ProjectImages/profilepic.jpg?raw=true" style={{color: "transparent"}}></img>
     </div>
   )
 }
