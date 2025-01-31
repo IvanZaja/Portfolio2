@@ -46,7 +46,9 @@ const TopBar = () => {
           <div className="mobile-menu-overlay">
           <button className="blockH2 h-[15px] overflow-hidden md:hidden" onClick={toggleMenu}>
             <span className="absolute top-12 right-12" style={{transform: "none"}}>
-              <span className='text-3xl'>{menuOpen ? 'X' : ''}</span>
+              <span className='text-3xl'>{menuOpen ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg> : ''}</span>
             </span>
           </button>
               <ul className="flex flex-col items-center justify-center h-full text-white">
