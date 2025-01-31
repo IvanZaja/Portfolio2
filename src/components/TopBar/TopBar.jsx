@@ -43,7 +43,6 @@ const TopBar = () => {
             </span>
           </button>
         {menuOpen && (
-          
           <div className="mobile-menu-overlay">
           <button className="blockH2 h-[15px] overflow-hidden md:hidden" onClick={toggleMenu}>
             <span className="absolute top-12 right-12" style={{transform: "none"}}>
